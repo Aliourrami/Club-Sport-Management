@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C11879D-DC36-4265-AE7B-A20011B1AD03}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Gestion_Club_Sport_Final</RootNamespace>
+    <AssemblyName>Gestion Club Sport Final</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icone_coaching-individuel.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abonner.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Activite.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Adherent.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Attestation.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Attestation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Créneau.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entraineur.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Facture.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormAbonner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbonner.Designer.cs">
+      <DependentUpon>FormAbonner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCréneau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCréneau.Designer.cs">
+      <DependentUpon>FormCréneau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFacture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFacture.Designer.cs">
+      <DependentUpon>FormFacture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormJours.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJours.Designer.cs">
+      <DependentUpon>FormJours.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRB.Designer.cs">
+      <DependentUpon>FormRB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSeance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSeance.Designer.cs">
+      <DependentUpon>FormSeance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Groupe.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="jour.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="paiment.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Salle.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="seance.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Type_abonnement.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAbonnement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbonnement.Designer.cs">
+      <DependentUpon>FormAbonnement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormActivite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormActivite.Designer.cs">
+      <DependentUpon>FormActivite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdherent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdherent.Designer.cs">
+      <DependentUpon>FormAdherent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEntraineur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEntraineur.Designer.cs">
+      <DependentUpon>FormEntraineur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGroupe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGroupe.Designer.cs">
+      <DependentUpon>FormGroupe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAttestation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAttestation.Designer.cs">
+      <DependentUpon>FormAttestation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPaiments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPaiments.Designer.cs">
+      <DependentUpon>FormPaiments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalle.Designer.cs">
+      <DependentUpon>FormSalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Login.Designer.cs">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Statistique.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Statistique.Designer.cs">
+      <DependentUpon>Statistique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Menu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlan.Designer.cs">
+      <DependentUpon>FormPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Attestation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Attestation.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facture.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Facture.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAbonner.resx">
+      <DependentUpon>FormAbonner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCréneau.resx">
+      <DependentUpon>FormCréneau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFacture.resx">
+      <DependentUpon>FormFacture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJours.resx">
+      <DependentUpon>FormJours.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPaiments.resx">
+      <DependentUpon>FormPaiments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRB.resx">
+      <DependentUpon>FormRB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSeance.resx">
+      <DependentUpon>FormSeance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAbonnement.resx">
+      <DependentUpon>FormAbonnement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormActivite.resx">
+      <DependentUpon>FormActivite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdherent.resx">
+      <DependentUpon>FormAdherent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEntraineur.resx">
+      <DependentUpon>FormEntraineur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGroupe.resx">
+      <DependentUpon>FormGroupe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAttestation.resx">
+      <DependentUpon>FormAttestation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlan.resx">
+      <DependentUpon>FormPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalle.resx">
+      <DependentUpon>FormSalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Login.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Statistique.resx">
+      <DependentUpon>Statistique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\256-256-f6f273180eacbd6ae444b6a905d4edbf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croix-rouge-logo-1560x1548.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gym-icon-png-kansas-city-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-keepass-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-male-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_311846.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginIconAppl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olympics_sport_weight_weightlifting_2257.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_hide_password-03-512 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_hide_password-10-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f47aca3394bacb3c1c7007e1207c6b5d_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+    <None Include="Resources\add-user-interface-outlined-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coach %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7067148c63b0829150f18c735fb8f2a250371b10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2019012216-Train-Icon-266x300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-friend %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f47aca3394bacb3c1c7007e1207c6b5d_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gym-icon-png-kansas-city-51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone_coaching-individuel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_571848.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_3118461.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginIconAppl1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\233013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activite1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subscription.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olympics_sport_weight_weightlifting_22571.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-musculation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new adh 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next.png" />
+    <None Include="Resources\Previous.png" />
+    <None Include="Resources\kisspng-button-computer-icons-iconfinder-clip-art-first-aid-clipart-5aad2e6e1701c9.52990028152129905409421.png" />
+    <None Include="Resources\kisspng-button-computer-icons-iconfinder-clip-art-first-aid-clipart-5aad2e6e1701c9.5299002815212990540942.png" />
+    <None Include="Resources\last ico1.png" />
+    <None Include="Resources\next ico1.png" />
+    <None Include="Resources\previous ico1.png" />
+    <None Include="Resources\first ico1.png" />
+    <None Include="Resources\last ico.png" />
+    <None Include="Resources\next ico.png" />
+    <None Include="Resources\previous ico.png" />
+    <None Include="Resources\first ico.png" />
+    <None Include="Resources\search btn data.png" />
+    <None Include="Resources\Dashboard1.png" />
+    <None Include="Resources\search btn.png" />
+    <None Include="Resources\edit btn.png" />
+    <None Include="Resources\delete btn.png" />
+    <None Include="Resources\add btn.png" />
+    <None Include="Resources\Dashboard.png" />
+    <None Include="Resources\horario-icono-png-8.png" />
+    <None Include="Resources\Circle-icons-calendar.svg.png" />
+    <None Include="Resources\resume-icon-png-1.png" />
+    <None Include="Resources\calendar-2027122_1280-2.png" />
+    <None Include="Resources\Webp.net-resizeimage %283%29.png" />
+    <None Include="Resources\shutdown.png" />
+    <None Include="Resources\shutdown-icon-15-256.png" />
+    <None Include="Resources\unnamed1.png" />
+    <None Include="Resources\Webp.net-resizeimage %282%29.png" />
+    <None Include="Resources\Webp.net-resizeimage %281%29.png" />
+    <None Include="Resources\Webp.net-resizeimage.png" />
+    <None Include="Resources\icon_contract-management.png" />
+    <None Include="Resources\signup-icon.png" />
+    <None Include="Resources\team.png" />
+    <None Include="Resources\letsport-logo-2-150dpi-transparent.png" />
+    <None Include="Resources\a9c7b2d4004400658dba04c9c500fd01.jpg" />
+    <None Include="Resources\815f0c5e986c816079701ab93994ba8d_icon.png" />
+    <None Include="Resources\yellow_gym_icon-icons.com_59568.png" />
+    <None Include="Resources\exercise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entity Framework\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icone_coaching-individuel.ico" />
+    <Content Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <Content Include="Resources\Screenshot\2020-04-11_22-24-36.jpg" />
+    <Content Include="Resources\Screenshot\2020-04-11_22-24-56.jpg" />
+    <Content Include="Resources\Screenshot\2020-04-11_22-25-22.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

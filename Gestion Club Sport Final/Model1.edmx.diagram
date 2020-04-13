@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7337628c65534e71a489328897d64535" Name="Diagram1">
+        <EntityTypeShape EntityType="GCS_FinalModel.Abonner" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCS_FinalModel.Activite" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCS_FinalModel.Adherent" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCS_FinalModel.Créneau" Width="1.5" PointX="9" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCS_FinalModel.Entraineur" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCS_FinalModel.Groupe" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCS_FinalModel.jour" Width="1.5" PointX="9" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCS_FinalModel.paiment" Width="1.5" PointX="13.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCS_FinalModel.Salle" Width="1.5" PointX="3.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCS_FinalModel.seance" Width="1.5" PointX="11.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GCS_FinalModel.Type_abonnement" Width="1.5" PointX="6" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="GCS_FinalModel.FK__Abonner__CodeTAb__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="GCS_FinalModel.FK__Abonner__NumA__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="GCS_FinalModel.FK__paiment__CodeAb__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="GCS_FinalModel.FK__Adherent__CodeAc__1BFD2C07" ManuallyRouted="false" />
+        <AssociationConnector Association="GCS_FinalModel.FK__Groupe__Activite__164452B1" ManuallyRouted="false" />
+        <AssociationConnector Association="GCS_FinalModel.FK__seance__Activite__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="GCS_FinalModel.FK__Adherent__Groupe__1B0907CE" ManuallyRouted="false" />
+        <AssociationConnector Association="GCS_FinalModel.FK__paiment__NumA__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="GCS_FinalModel.FK__seance__Créneau__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="GCS_FinalModel.FK__Groupe__Entraine__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="GCS_FinalModel.FK__seance__Entraine__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="GCS_FinalModel.FK__Groupe__Salle__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="GCS_FinalModel.FK__seance__Groupe__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="GCS_FinalModel.FK__seance__Jours__276EDEB3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
