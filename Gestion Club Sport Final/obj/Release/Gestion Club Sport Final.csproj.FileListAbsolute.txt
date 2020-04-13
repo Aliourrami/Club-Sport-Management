@@ -1,0 +1,52 @@
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\Gestion Club Sport Final.exe.config
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\Gestion Club Sport Final.exe
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\Gestion Club Sport Final.pdb
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\Bunifu_UI_v1.52.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\EntityFramework.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\FlashControlV71.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\ShockwaveFlashObjects.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\stdole.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\EntityFramework.xml
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.FormAbonner.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.FormFacture.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.FormPaiments.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.FormRB.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.about.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.Dashboard.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.FormAbonnement.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.FormActivite.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.FormAdherent.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.FormEntraineur.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.FormGroupe.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.FormAttestation.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.FormPlan.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.FormSalle.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.Form_Login.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.Save.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.Statistique.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.Menu.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion_Club_Sport_Final.Properties.Resources.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion Club Sport Final.csproj.GenerateResource.cache
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion Club Sport Final.csproj.CoreCompileInputs.cache
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion Club Sport Final.csproj.CopyComplete
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion Club Sport Final.exe
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion Club Sport Final.pdb
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Release\Gestion Club Sport Final.csprojAssemblyReference.cache

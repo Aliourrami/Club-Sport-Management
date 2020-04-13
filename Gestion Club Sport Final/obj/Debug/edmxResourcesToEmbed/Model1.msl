@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GCS_FinalModelStoreContainer" CdmEntityContainer="GCS_FinalEntities1">
+    <EntitySetMapping Name="Abonners">
+      <EntityTypeMapping TypeName="GCS_FinalModel.Abonner">
+        <MappingFragment StoreEntitySet="Abonner">
+          <ScalarProperty Name="codeAb" ColumnName="codeAb" />
+          <ScalarProperty Name="CodeTAb" ColumnName="CodeTAb" />
+          <ScalarProperty Name="DureeAb" ColumnName="DureeAb" />
+          <ScalarProperty Name="NumA" ColumnName="NumA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Activites">
+      <EntityTypeMapping TypeName="GCS_FinalModel.Activite">
+        <MappingFragment StoreEntitySet="Activite">
+          <ScalarProperty Name="CodeAct" ColumnName="CodeAct" />
+          <ScalarProperty Name="LibelleAct" ColumnName="LibelleAct" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Adherents">
+      <EntityTypeMapping TypeName="GCS_FinalModel.Adherent">
+        <MappingFragment StoreEntitySet="Adherent">
+          <ScalarProperty Name="NumA" ColumnName="NumA" />
+          <ScalarProperty Name="NomA" ColumnName="NomA" />
+          <ScalarProperty Name="PrenomA" ColumnName="PrenomA" />
+          <ScalarProperty Name="DateN" ColumnName="DateN" />
+          <ScalarProperty Name="DateI" ColumnName="DateI" />
+          <ScalarProperty Name="Sexe" ColumnName="Sexe" />
+          <ScalarProperty Name="Adresse" ColumnName="Adresse" />
+          <ScalarProperty Name="VilleA" ColumnName="VilleA" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="Groupe" ColumnName="Groupe" />
+          <ScalarProperty Name="CodeAct" ColumnName="CodeAct" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Créneau">
+      <EntityTypeMapping TypeName="GCS_FinalModel.Créneau">
+        <MappingFragment StoreEntitySet="Créneau">
+          <ScalarProperty Name="CodeC" ColumnName="CodeC" />
+          <ScalarProperty Name="HeureD" ColumnName="HeureD" />
+          <ScalarProperty Name="HeureF" ColumnName="HeureF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Entraineurs">
+      <EntityTypeMapping TypeName="GCS_FinalModel.Entraineur">
+        <MappingFragment StoreEntitySet="Entraineur">
+          <ScalarProperty Name="NumE" ColumnName="NumE" />
+          <ScalarProperty Name="NomE" ColumnName="NomE" />
+          <ScalarProperty Name="PrenomE" ColumnName="PrenomE" />
+          <ScalarProperty Name="LibelleE" ColumnName="LibelleE" />
+          <ScalarProperty Name="DateN" ColumnName="DateN" />
+          <ScalarProperty Name="Sexe" ColumnName="Sexe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Groupes">
+      <EntityTypeMapping TypeName="GCS_FinalModel.Groupe">
+        <MappingFragment StoreEntitySet="Groupe">
+          <ScalarProperty Name="CodeG" ColumnName="CodeG" />
+          <ScalarProperty Name="Activite" ColumnName="Activite" />
+          <ScalarProperty Name="DescriptionG" ColumnName="DescriptionG" />
+          <ScalarProperty Name="Entraineur" ColumnName="Entraineur" />
+          <ScalarProperty Name="Salle" ColumnName="Salle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="jours">
+      <EntityTypeMapping TypeName="GCS_FinalModel.jour">
+        <MappingFragment StoreEntitySet="jours">
+          <ScalarProperty Name="NumJ" ColumnName="NumJ" />
+          <ScalarProperty Name="NomJ" ColumnName="NomJ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="paiments">
+      <EntityTypeMapping TypeName="GCS_FinalModel.paiment">
+        <MappingFragment StoreEntitySet="paiment">
+          <ScalarProperty Name="CodeAb" ColumnName="CodeAb" />
+          <ScalarProperty Name="NumA" ColumnName="NumA" />
+          <ScalarProperty Name="Montant" ColumnName="Montant" />
+          <ScalarProperty Name="ModeP" ColumnName="ModeP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Salles">
+      <EntityTypeMapping TypeName="GCS_FinalModel.Salle">
+        <MappingFragment StoreEntitySet="Salle">
+          <ScalarProperty Name="NumS" ColumnName="NumS" />
+          <ScalarProperty Name="NomS" ColumnName="NomS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="seances">
+      <EntityTypeMapping TypeName="GCS_FinalModel.seance">
+        <MappingFragment StoreEntitySet="seance">
+          <ScalarProperty Name="NumSc" ColumnName="NumSc" />
+          <ScalarProperty Name="Créneau" ColumnName="Créneau" />
+          <ScalarProperty Name="Jours" ColumnName="Jours" />
+          <ScalarProperty Name="Groupe" ColumnName="Groupe" />
+          <ScalarProperty Name="Activite" ColumnName="Activite" />
+          <ScalarProperty Name="Entraineur" ColumnName="Entraineur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Type_abonnement">
+      <EntityTypeMapping TypeName="GCS_FinalModel.Type_abonnement">
+        <MappingFragment StoreEntitySet="Type_abonnement">
+          <ScalarProperty Name="CodeTAb" ColumnName="CodeTAb" />
+          <ScalarProperty Name="DescTAb" ColumnName="DescTAb" />
+          <ScalarProperty Name="TarifTAb" ColumnName="TarifTAb" />
+          <ScalarProperty Name="DureeTAb" ColumnName="DureeTAb" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

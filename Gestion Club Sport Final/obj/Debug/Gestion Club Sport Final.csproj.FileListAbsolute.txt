@@ -1,0 +1,213 @@
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Properties.Resources.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csproj.GenerateResource.cache
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csproj.CoreCompileInputs.cache
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\Gestion Club Sport Final.exe.config
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\Gestion Club Sport Final.exe
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\Gestion Club Sport Final.pdb
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csproj.CopyComplete
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.exe
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.pdb
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Dashboard.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAdherent.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Form_Login.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Menu.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormActivite.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormEntraineur.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormPlan.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormSalle.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\EntityFramework.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\EntityFramework.xml
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormGroupe.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.about.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Statistique.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Save.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAbonnement.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormPaiments.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\FlashControlV71.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\bin\Debug\stdole.dll
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormFacture.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormRB.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAttestation.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAbonner.resources
+C:\Users\Ali\source\repos\Gestion Club Sport Final\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csprojAssemblyReference.cache
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\Gestion Club Sport Final.exe.config
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\Gestion Club Sport Final.exe
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\Gestion Club Sport Final.pdb
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\EntityFramework.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\FlashControlV71.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\stdole.dll
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\EntityFramework.xml
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAbonner.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormCréneau.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormFacture.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormJours.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormPaiments.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormRB.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormSeance.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.about.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Dashboard.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAbonnement.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormActivite.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAdherent.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormEntraineur.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormGroupe.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAttestation.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormPlan.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormSalle.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Form_Login.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Save.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Statistique.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Menu.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Properties.Resources.resources
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csproj.GenerateResource.cache
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csproj.CoreCompileInputs.cache
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csproj.CopyComplete
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.exe
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.pdb
+C:\Users\Ali\Desktop\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csprojAssemblyReference.cache
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\Gestion Club Sport Final.exe.config
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\Gestion Club Sport Final.exe
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\Gestion Club Sport Final.pdb
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.Shared.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\EntityFramework.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\EntityFramework.SqlServer.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\FlashControlV71.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\ShockwaveFlashObjects.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\stdole.dll
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\EntityFramework.xml
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\EntityFramework.SqlServer.xml
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csprojAssemblyReference.cache
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAbonner.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormCréneau.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormFacture.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormJours.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormPaiments.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormRB.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormSeance.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.about.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Dashboard.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAbonnement.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormActivite.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAdherent.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormEntraineur.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormGroupe.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAttestation.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormPlan.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormSalle.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Form_Login.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Save.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Statistique.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Menu.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Properties.Resources.resources
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csproj.GenerateResource.cache
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csproj.CoreCompileInputs.cache
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csproj.CopyComplete
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.exe
+D:\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.pdb
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\Gestion Club Sport Final.exe.config
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\Gestion Club Sport Final.exe
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\Gestion Club Sport Final.pdb
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\EntityFramework.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\EntityFramework.SqlServer.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\EntityFramework.xml
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\EntityFramework.SqlServer.xml
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAbonner.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormCréneau.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormFacture.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormJours.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormPaiments.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormRB.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormSeance.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Dashboard.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAbonnement.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormActivite.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAdherent.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormEntraineur.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormGroupe.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAttestation.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormPlan.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormSalle.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Form_Login.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Statistique.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Menu.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.Properties.Resources.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csproj.GenerateResource.cache
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csproj.CoreCompileInputs.cache
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csproj.CopyComplete
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.exe
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.pdb
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion_Club_Sport_Final.FormAbout.resources
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\obj\Debug\Gestion Club Sport Final.csprojAssemblyReference.cache
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\ShockwaveFlashObjects.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\stdole.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.Shared.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\AxShockwaveFlashObjects.dll
+D:\TDI my projects\TDI 2éme\Projet Club SPORTS\Gestion Club Sport Final 3\Gestion Club Sport Final\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll

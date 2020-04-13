@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="club_sport_2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Abonner">
+    <Key>
+      <PropertyRef Name="codeAb" />
+    </Key>
+    <Property Name="codeAb" Type="Int32" Nullable="false" />
+    <Property Name="CodeTAb" Type="Int32" />
+    <Property Name="DureeAb" Type="Int32" />
+    <Property Name="NumA" Type="Int32" />
+    <NavigationProperty Name="Type_abonnement" Relationship="Self.FK__Abonner__CodeTAb__5EBF139D" FromRole="Abonner" ToRole="Type_abonnement" />
+    <NavigationProperty Name="Adherent" Relationship="Self.FK__Abonner__NumA__5FB337D6" FromRole="Abonner" ToRole="Adherent" />
+    <NavigationProperty Name="paiments" Relationship="club_sport_2Model.FK__paiment__CodeAb__6754599E" FromRole="Abonner" ToRole="paiment" />
+  </EntityType>
+  <EntityType Name="Activite">
+    <Key>
+      <PropertyRef Name="CodeAct" />
+    </Key>
+    <Property Name="CodeAct" Type="Int32" Nullable="false" />
+    <Property Name="LibelleAct" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Adherents" Relationship="Self.FK__Adherent__CodeAc__5535A963" FromRole="Activite" ToRole="Adherent" />
+    <NavigationProperty Name="Groupes" Relationship="Self.FK__Groupe__Activite__4F7CD00D" FromRole="Activite" ToRole="Groupe" />
+    <NavigationProperty Name="Planifiers" Relationship="Self.FK__Planifier__CodeA__59063A47" FromRole="Activite" ToRole="Planifier" />
+  </EntityType>
+  <EntityType Name="Adherent">
+    <Key>
+      <PropertyRef Name="NumA" />
+    </Key>
+    <Property Name="NumA" Type="Int32" Nullable="false" />
+    <Property Name="NomA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PrenomA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="DateN" Type="DateTime" Precision="0" />
+    <Property Name="DateI" Type="DateTime" Precision="0" />
+    <Property Name="Sexe" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Adresse" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="VilleA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Tel" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Groupe" Type="Int32" />
+    <Property Name="CodeAct" Type="Int32" />
+    <NavigationProperty Name="Abonners" Relationship="Self.FK__Abonner__NumA__5FB337D6" FromRole="Adherent" ToRole="Abonner" />
+    <NavigationProperty Name="Activite" Relationship="Self.FK__Adherent__CodeAc__5535A963" FromRole="Adherent" ToRole="Activite" />
+    <NavigationProperty Name="Groupe1" Relationship="Self.FK__Adherent__Groupe__5441852A" FromRole="Adherent" ToRole="Groupe" />
+    <NavigationProperty Name="paiments" Relationship="club_sport_2Model.FK__paiment__NumA__68487DD7" FromRole="Adherent" ToRole="paiment" />
+  </EntityType>
+  <EntityType Name="Entraineur">
+    <Key>
+      <PropertyRef Name="NumE" />
+    </Key>
+    <Property Name="NumE" Type="Int32" Nullable="false" />
+    <Property Name="NomE" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PrenomE" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="LibelleE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DateN" Type="DateTime" Precision="0" />
+    <Property Name="Sexe" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Groupes" Relationship="Self.FK__Groupe__Entraine__5070F446" FromRole="Entraineur" ToRole="Groupe" />
+  </EntityType>
+  <EntityType Name="Groupe">
+    <Key>
+      <PropertyRef Name="CodeG" />
+    </Key>
+    <Property Name="CodeG" Type="Int32" Nullable="false" />
+    <Property Name="Activite" Type="Int32" />
+    <Property Name="DescriptionG" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Entraineur" Type="Int32" />
+    <Property Name="Salle" Type="Int32" />
+    <NavigationProperty Name="Activite1" Relationship="Self.FK__Groupe__Activite__4F7CD00D" FromRole="Groupe" ToRole="Activite" />
+    <NavigationProperty Name="Adherents" Relationship="Self.FK__Adherent__Groupe__5441852A" FromRole="Groupe" ToRole="Adherent" />
+    <NavigationProperty Name="Entraineur1" Relationship="Self.FK__Groupe__Entraine__5070F446" FromRole="Groupe" ToRole="Entraineur" />
+    <NavigationProperty Name="Salle1" Relationship="Self.FK__Groupe__Salle__5165187F" FromRole="Groupe" ToRole="Salle" />
+    <NavigationProperty Name="Planifiers" Relationship="Self.FK__Planifier__Group__59FA5E80" FromRole="Groupe" ToRole="Planifier" />
+  </EntityType>
+  <EntityType Name="Planifier">
+    <Key>
+      <PropertyRef Name="NumS" />
+      <PropertyRef Name="CodeAct" />
+      <PropertyRef Name="Groupe" />
+    </Key>
+    <Property Name="DateP" Type="DateTime" Precision="0" />
+    <Property Name="HeurD" Type="Time" Precision="7" />
+    <Property Name="HeurF" Type="Time" Precision="7" />
+    <Property Name="NumS" Type="Int32" Nullable="false" />
+    <Property Name="CodeAct" Type="Int32" Nullable="false" />
+    <Property Name="Groupe" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Activite" Relationship="Self.FK__Planifier__CodeA__59063A47" FromRole="Planifier" ToRole="Activite" />
+    <NavigationProperty Name="Groupe1" Relationship="Self.FK__Planifier__Group__59FA5E80" FromRole="Planifier" ToRole="Groupe" />
+    <NavigationProperty Name="Salle" Relationship="Self.FK__Planifier__NumS__5812160E" FromRole="Planifier" ToRole="Salle" />
+  </EntityType>
+  <EntityType Name="Salle">
+    <Key>
+      <PropertyRef Name="NumS" />
+    </Key>
+    <Property Name="NumS" Type="Int32" Nullable="false" />
+    <Property Name="NomS" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Groupes" Relationship="Self.FK__Groupe__Salle__5165187F" FromRole="Salle" ToRole="Groupe" />
+    <NavigationProperty Name="Planifiers" Relationship="Self.FK__Planifier__NumS__5812160E" FromRole="Salle" ToRole="Planifier" />
+  </EntityType>
+  <EntityType Name="Type_abonnement">
+    <Key>
+      <PropertyRef Name="CodeTAb" />
+    </Key>
+    <Property Name="CodeTAb" Type="Int32" Nullable="false" />
+    <Property Name="DescTAb" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="TarifTAb" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DureeTAb" Type="Int32" />
+    <NavigationProperty Name="Abonners" Relationship="Self.FK__Abonner__CodeTAb__5EBF139D" FromRole="Type_abonnement" ToRole="Abonner" />
+  </EntityType>
+  <Association Name="FK__Abonner__CodeTAb__5EBF139D">
+    <End Role="Type_abonnement" Type="Self.Type_abonnement" Multiplicity="0..1" />
+    <End Role="Abonner" Type="Self.Abonner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Type_abonnement">
+        <PropertyRef Name="CodeTAb" />
+      </Principal>
+      <Dependent Role="Abonner">
+        <PropertyRef Name="CodeTAb" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Abonner__NumA__5FB337D6">
+    <End Role="Adherent" Type="Self.Adherent" Multiplicity="0..1" />
+    <End Role="Abonner" Type="Self.Abonner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Adherent">
+        <PropertyRef Name="NumA" />
+      </Principal>
+      <Dependent Role="Abonner">
+        <PropertyRef Name="NumA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Adherent__CodeAc__5535A963">
+    <End Role="Activite" Type="Self.Activite" Multiplicity="0..1" />
+    <End Role="Adherent" Type="Self.Adherent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Activite">
+        <PropertyRef Name="CodeAct" />
+      </Principal>
+      <Dependent Role="Adherent">
+        <PropertyRef Name="CodeAct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Groupe__Activite__4F7CD00D">
+    <End Role="Activite" Type="Self.Activite" Multiplicity="0..1" />
+    <End Role="Groupe" Type="Self.Groupe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Activite">
+        <PropertyRef Name="CodeAct" />
+      </Principal>
+      <Dependent Role="Groupe">
+        <PropertyRef Name="Activite" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Planifier__CodeA__59063A47">
+    <End Role="Activite" Type="Self.Activite" Multiplicity="1" />
+    <End Role="Planifier" Type="Self.Planifier" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Activite">
+        <PropertyRef Name="CodeAct" />
+      </Principal>
+      <Dependent Role="Planifier">
+        <PropertyRef Name="CodeAct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Adherent__Groupe__5441852A">
+    <End Role="Groupe" Type="Self.Groupe" Multiplicity="0..1" />
+    <End Role="Adherent" Type="Self.Adherent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groupe">
+        <PropertyRef Name="CodeG" />
+      </Principal>
+      <Dependent Role="Adherent">
+        <PropertyRef Name="Groupe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Groupe__Entraine__5070F446">
+    <End Role="Entraineur" Type="Self.Entraineur" Multiplicity="0..1" />
+    <End Role="Groupe" Type="Self.Groupe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entraineur">
+        <PropertyRef Name="NumE" />
+      </Principal>
+      <Dependent Role="Groupe">
+        <PropertyRef Name="Entraineur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Groupe__Salle__5165187F">
+    <End Role="Salle" Type="Self.Salle" Multiplicity="0..1" />
+    <End Role="Groupe" Type="Self.Groupe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Salle">
+        <PropertyRef Name="NumS" />
+      </Principal>
+      <Dependent Role="Groupe">
+        <PropertyRef Name="Salle" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Planifier__Group__59FA5E80">
+    <End Role="Groupe" Type="Self.Groupe" Multiplicity="1" />
+    <End Role="Planifier" Type="Self.Planifier" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groupe">
+        <PropertyRef Name="CodeG" />
+      </Principal>
+      <Dependent Role="Planifier">
+        <PropertyRef Name="Groupe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Planifier__NumS__5812160E">
+    <End Role="Salle" Type="Self.Salle" Multiplicity="1" />
+    <End Role="Planifier" Type="Self.Planifier" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Salle">
+        <PropertyRef Name="NumS" />
+      </Principal>
+      <Dependent Role="Planifier">
+        <PropertyRef Name="NumS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="club_sport_2Entities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Abonners" EntityType="Self.Abonner" />
+    <EntitySet Name="Activites" EntityType="Self.Activite" />
+    <EntitySet Name="Adherents" EntityType="Self.Adherent" />
+    <EntitySet Name="Entraineurs" EntityType="Self.Entraineur" />
+    <EntitySet Name="Groupes" EntityType="Self.Groupe" />
+    <EntitySet Name="Planifiers" EntityType="Self.Planifier" />
+    <EntitySet Name="Salles" EntityType="Self.Salle" />
+    <EntitySet Name="Type_abonnement" EntityType="Self.Type_abonnement" />
+    <AssociationSet Name="FK__Abonner__CodeTAb__5EBF139D" Association="Self.FK__Abonner__CodeTAb__5EBF139D">
+      <End Role="Type_abonnement" EntitySet="Type_abonnement" />
+      <End Role="Abonner" EntitySet="Abonners" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Abonner__NumA__5FB337D6" Association="Self.FK__Abonner__NumA__5FB337D6">
+      <End Role="Adherent" EntitySet="Adherents" />
+      <End Role="Abonner" EntitySet="Abonners" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Adherent__CodeAc__5535A963" Association="Self.FK__Adherent__CodeAc__5535A963">
+      <End Role="Activite" EntitySet="Activites" />
+      <End Role="Adherent" EntitySet="Adherents" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Groupe__Activite__4F7CD00D" Association="Self.FK__Groupe__Activite__4F7CD00D">
+      <End Role="Activite" EntitySet="Activites" />
+      <End Role="Groupe" EntitySet="Groupes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Planifier__CodeA__59063A47" Association="Self.FK__Planifier__CodeA__59063A47">
+      <End Role="Activite" EntitySet="Activites" />
+      <End Role="Planifier" EntitySet="Planifiers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Adherent__Groupe__5441852A" Association="Self.FK__Adherent__Groupe__5441852A">
+      <End Role="Groupe" EntitySet="Groupes" />
+      <End Role="Adherent" EntitySet="Adherents" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Groupe__Entraine__5070F446" Association="Self.FK__Groupe__Entraine__5070F446">
+      <End Role="Entraineur" EntitySet="Entraineurs" />
+      <End Role="Groupe" EntitySet="Groupes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Groupe__Salle__5165187F" Association="Self.FK__Groupe__Salle__5165187F">
+      <End Role="Salle" EntitySet="Salles" />
+      <End Role="Groupe" EntitySet="Groupes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Planifier__Group__59FA5E80" Association="Self.FK__Planifier__Group__59FA5E80">
+      <End Role="Groupe" EntitySet="Groupes" />
+      <End Role="Planifier" EntitySet="Planifiers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Planifier__NumS__5812160E" Association="Self.FK__Planifier__NumS__5812160E">
+      <End Role="Salle" EntitySet="Salles" />
+      <End Role="Planifier" EntitySet="Planifiers" />
+    </AssociationSet>
+    <EntitySet Name="paiments" EntityType="club_sport_2Model.paiment" />
+    <AssociationSet Name="FK__paiment__CodeAb__6754599E" Association="club_sport_2Model.FK__paiment__CodeAb__6754599E">
+      <End Role="Abonner" EntitySet="Abonners" />
+      <End Role="paiment" EntitySet="paiments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__paiment__NumA__68487DD7" Association="club_sport_2Model.FK__paiment__NumA__68487DD7">
+      <End Role="Adherent" EntitySet="Adherents" />
+      <End Role="paiment" EntitySet="paiments" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="paiment">
+    <Key>
+      <PropertyRef Name="CodeAb" />
+      <PropertyRef Name="NumA" />
+    </Key>
+    <Property Name="CodeAb" Type="Int32" Nullable="false" />
+    <Property Name="NumA" Type="Int32" Nullable="false" />
+    <Property Name="Montant" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ModeP" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Abonner" Relationship="club_sport_2Model.FK__paiment__CodeAb__6754599E" FromRole="paiment" ToRole="Abonner" />
+    <NavigationProperty Name="Adherent" Relationship="club_sport_2Model.FK__paiment__NumA__68487DD7" FromRole="paiment" ToRole="Adherent" />
+  </EntityType>
+  <Association Name="FK__paiment__CodeAb__6754599E">
+    <End Type="club_sport_2Model.Abonner" Role="Abonner" Multiplicity="1" />
+    <End Type="club_sport_2Model.paiment" Role="paiment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Abonner">
+        <PropertyRef Name="codeAb" />
+      </Principal>
+      <Dependent Role="paiment">
+        <PropertyRef Name="CodeAb" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__paiment__NumA__68487DD7">
+    <End Type="club_sport_2Model.Adherent" Role="Adherent" Multiplicity="1" />
+    <End Type="club_sport_2Model.paiment" Role="paiment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Adherent">
+        <PropertyRef Name="NumA" />
+      </Principal>
+      <Dependent Role="paiment">
+        <PropertyRef Name="NumA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
